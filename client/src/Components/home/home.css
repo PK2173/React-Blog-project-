@@ -1,0 +1,59 @@
+.PostContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+}
+
+.post {
+  border: 2px solid rgb(43, 170, 138);
+  width: 70% !important;
+}
+
+.title {
+  border: 2px solid rgb(43, 170, 138);
+  height: 30px;
+  background-color: rgb(43, 170, 138);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.postText {
+  border: 2px solid rgb(43, 170, 138);
+  height: 140px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  cursor: pointer;
+}
+
+.username {
+  border: 2px solid rgb(43, 170, 138);
+  height: 37px;
+  background-color: rgb(43, 170, 138);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.usernametext {
+  padding: 10px;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.likepost {
+  float: right;
+  border: none;
+  background-color: rgb(43, 170, 138);
+  color: white;
+  margin-right: 4px;
+  padding: 3px;
+  justify-content: center;
+  align-items: center;
+}
